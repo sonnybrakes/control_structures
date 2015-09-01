@@ -71,72 +71,51 @@
 
 # case
 
-number = 12
+# number = 12
 
-case number
-  when 10 then puts "10"  # inline
-  when 12  # block
-    puts "12"
-  when 15
-    puts "15"
-  else
-    puts "none of the above"
-end
-
-
-
-
-
-
-
-
-
-
-
+# case number
+#   when 10 then puts "10"  # inline
+#   when 12  # block
+#     puts "12"
+#   when 15
+#     puts "15"
+#   else
+#     puts "none of the above"
+# end
 
 # Loops
 # Repeat
 
+# puts "Hello"  # don't repeat yourself DRY
 # puts "Hello"
 # puts "Hello"
 # puts "Hello"
 # puts "Hello"
 # puts "Hello"
-# puts "Hello"
 
-# while true
-#   puts "Hello"
-# end
+while true  # infinity loop, ctrl + c quits the loop
+  puts "Hello"
+end
 
+counter = 1
 
-# counter = 1
-
-# while counter < 4
-#   puts "Counter at #{counter}"
-#   counter -= 1
-# end
+while counter < 4
+  puts "Counter at #{counter}"
+  counter += 1  # escaping an infinity loop
+end
 
 
-# counter = 5
-# until counter == 0
-#   puts "Counter at #{counter}"
+counter = 5
+until counter == 0
+  puts "Counter at #{counter}"
+  counter -= 1  # escape condition
+end
 
+# simple iterators
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#   puts number
+# .times
+# 3.times do
+#   puts "chuncky bacon"
 # end
 
 
