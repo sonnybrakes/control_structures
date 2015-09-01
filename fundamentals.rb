@@ -6,21 +6,21 @@
 #   only do something if the condition evaluates to true
 # end
 
-my_value = 5
+# my_value = 5
 
-if my_value > 4  # if condition always resolves to true or false or its boolean value
-  puts "I get printed"
-end
-
-# else
-
-# number = 5
-
-# if number > 0
-#   puts "#{number} is positive"
-# else
-#   puts "#{number} is negative"
+# if my_value > 4  # if condition always resolves to true or false or its boolean value
+#   puts "I get printed"
 # end
+
+# else
+
+number = 5
+
+if number > 0  # if condition is true
+  puts "#{number} is positive"  # do this thing
+else  # otherwise
+  puts "#{number} is negative"  # do this other thing
+end
 
 # elsif
 
