@@ -49,11 +49,11 @@
 #   puts "It's 10"
 # end
 
-if number == 10  # this block of code does what the above code does and is easier to think through
-  puts "It's 10"
-else
-  puts "Not 10"
-end
+# if number == 10  # this block of code does what the above code does and is easier to think through
+#   puts "It's 10"
+# else
+#   puts "Not 10"
+# end
 
 
 # if number == 10
@@ -62,7 +62,8 @@ end
 
 
 # inline if /unless
-# puts "It's 10" if number == 10
+number = 10
+puts "It's 10" if number == 10  # inline code reads like a regular sentence would
 # puts "It's not 10" unless number == 10
 
 # ternary
