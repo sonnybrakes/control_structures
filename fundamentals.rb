@@ -116,23 +116,23 @@
 # simple iterators
 
 # .times
-3.times do  # looping iterator, a Ruby construct
-  puts "chuncky bacon"
-end
+# 3.times do  # looping iterator, a Ruby construct
+#   puts "chuncky bacon"
+# end
 
-3.times { puts "chunky bacon!"}  # inline with the curly braces replacing the {do end} statements
+# 3.times { puts "chunky bacon!"}  # inline with the curly braces replacing the {do end} statements
 
-puts ""
+# puts ""
 
-3.times do |number|
-  puts number
-end
+# 3.times do |number|
+#   puts number
+# end
 
 
 # range
 
-# one_to_ten = (1..10)
+one_to_ten = (1..10)  # defined range
 
-# one_to_ten.each do |number|
-#   puts number
-# end
+one_to_ten.each do |number|
+  puts number
+end
