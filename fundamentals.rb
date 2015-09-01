@@ -67,10 +67,21 @@
 # puts "It's not 10" unless number == 10
 
 # ternary
-puts 3 > 4 ? "greater" : "lesser"  # condition followed by a question mark followed by true then false
+# puts 3 > 4 ? "greater" : "lesser"  # condition followed by a question mark followed by true then false
 
 # case
 
+number = 12
+
+case number
+  when 10 then puts "10"  # inline
+  when 12  # block
+    puts "12"
+  when 15
+    puts "15"
+  else
+    puts "none of the above"
+end
 
 
 
