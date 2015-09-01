@@ -62,12 +62,12 @@
 
 
 # inline if /unless
-number = 5
+# number = 10
 # puts "It's 10" if number == 10  # inline code reads like a regular succinct sentence would
-puts "It's not 10" unless number == 10
+# puts "It's not 10" unless number == 10
 
 # ternary
-# puts 3 > 4 ? "greater" : "lesser"
+puts 3 > 4 ? "greater" : "lesser"  # condition followed by a question mark followed by true then false
 
 # case
 
