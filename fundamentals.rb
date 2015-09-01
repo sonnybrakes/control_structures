@@ -24,28 +24,30 @@
 
 # elsif
 
-number1 = 2
-number2 = 5
+# number1 = 2
+# number2 = 5
 
-if number1 > number2  # when more than two conditions need to be evaluated
-  puts "number1 is greater than number2"  # do this when if condition is true
-elsif number1 < number2  # second condition to be evaluated if first condition was not true
-  puts "number1 is less than number2"  # do this other if the second condition evaluates to true
-else  # otherwise if the first two condition evaluate to false, which is not necessary
-  puts "number1 is equal to number2"  # then do this thing
-end
+# if number1 > number2  # when more than two conditions need to be evaluated
+#   puts "number1 is greater than number2"  # do this when if condition is true
+# elsif number1 < number2  # second condition to be evaluated if first condition was not true
+#   puts "number1 is less than number2"  # do this other if the second condition evaluates to true
+# else  # otherwise if the first two condition evaluate to false, which is not necessary
+#   puts "number1 is equal to number2"  # then do this thing
+# end
 
 # unless
 
-# if number != 10
-#   puts "I get printed"
-# end
+number = 5
 
-# unless number == 10
-#   puts "Not 10!"
-# else
-#   puts "It's 10"
-# end
+if number != 10  # if condition evaluates to true number 5 is not equal to 10
+  puts "I get printed"  # do this thing
+end
+
+unless number == 10  # this unless statement evaluated the same as if number != 10
+  puts "Not 10!" # do this thing
+else  # not easily understood counter intuitive logic
+  puts "It's 10"
+end
 
 # if number == 10
 #   puts "It's 10"
@@ -58,8 +60,15 @@ end
 #   puts"It's 10"
 # end
 
-# inline if /unless
 
+# inline if /unless
+# puts "It's 10" if number == 10
+# puts "It's not 10" unless number == 10
+
+# ternary
+# puts 3 > 4 ? "greater" : "lesser"
+
+# case
 
 
 
