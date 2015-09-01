@@ -2,11 +2,15 @@
 
 # if statements
 
-# my_value = 5
-
-# if my_value > 4
-#   puts "I get printed"
+# if a condition is true
+#   only do something if the condition evaluates to true
 # end
+
+my_value = 5
+
+if my_value > 4  # if condition always resolves to true or false or its boolean value
+  puts "I get printed"
+end
 
 # else
 
