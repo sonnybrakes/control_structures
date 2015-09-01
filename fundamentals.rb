@@ -14,26 +14,26 @@
 
 # else
 
-number = 5
+# number = 5
 
-if number > 0  # if condition is true
-  puts "#{number} is positive"  # do this thing
-else  # otherwise
-  puts "#{number} is negative"  # do this other thing
-end
+# if number > 0  # if condition is true
+#   puts "#{number} is positive"  # do this thing
+# else  # otherwise
+#   puts "#{number} is negative"  # do this other thing
+# end
 
 # elsif
 
-# number1 = 2
-# number2 = 5
+number1 = 2
+number2 = 5
 
-# if number1 > number2
-#   puts "number1 is greater than number2"
-# elsif number1 < number2
-#   puts "number1 is lesser than number2"
-# else
-#   puts "number1 is equal to number2"
-# end
+if number1 > number2  # when more than two conditions need to be evaluated
+  puts "number1 is greater than number2"  # do this when if condition is true
+elsif number1 < number2  # second condition to be evaluated if first condition was not true
+  puts "number1 is less than number2"  # do this other if the second condition evaluates to true
+else  # otherwise if the first two condition evaluate to false, which is not necessary
+  puts "number1 is equal to number2"  # then do this thing
+end
 
 # unless
 
