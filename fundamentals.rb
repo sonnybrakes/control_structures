@@ -93,30 +93,40 @@
 # puts "Hello"
 # puts "Hello"
 
-while true  # infinity loop, ctrl + c quits the loop
-  puts "Hello"
-end
+# while true  # infinity loop, ctrl + c quits the loop
+#   puts "Hello"
+# end
 
-counter = 1
+# counter = 1
 
-while counter < 4
-  puts "Counter at #{counter}"
-  counter += 1  # escaping an infinity loop
-end
+# while counter < 4
+#   puts "Counter at #{counter}"
+#   counter += 1  # escaping an infinity loop
+# end
 
 
-counter = 5
-until counter == 0
-  puts "Counter at #{counter}"
-  counter -= 1  # escape condition
-end
+# counter = 5
+# until counter == 0
+#   puts "Counter at #{counter}"
+#   counter -= 1  # escape condition
+# end
+
+
 
 # simple iterators
 
 # .times
-# 3.times do
-#   puts "chuncky bacon"
-# end
+3.times do  # looping iterator, a Ruby construct
+  puts "chuncky bacon"
+end
+
+3.times { puts "chunky bacon!"}  # inline with the curly braces replacing the {do end} statements
+
+puts ""
+
+3.times do |number|
+  puts number
+end
 
 
 # range
