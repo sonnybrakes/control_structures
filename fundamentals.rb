@@ -37,23 +37,23 @@
 
 # unless
 
-number = 5
+# number = 5
 
-if number != 10  # if condition evaluates to true number 5 is not equal to 10
-  puts "I get printed"  # do this thing
-end
-
-unless number == 10  # this unless statement evaluated the same as if number != 10
-  puts "Not 10!" # do this thing
-else  # not easily understood counter intuitive logic
-  puts "It's 10"
-end
-
-# if number == 10
-#   puts "It's 10"
-# else
-#   puts "Not 10"
+# if number != 10  # if condition evaluates to true number 5 is not equal to 10
+#   puts "I get printed"  # do this thing
 # end
+
+# unless number == 10  # this unless statement evaluated the same as if number != 10
+#   puts "Not 10!" # do this thing
+# else  # not easily understood counter intuitive logic
+#   puts "It's 10"
+# end
+
+if number == 10  # this block of code does what the above code does and is easier to think through
+  puts "It's 10"
+else
+  puts "Not 10"
+end
 
 
 # if number == 10
